@@ -7,13 +7,14 @@ import ballerinax/sap;
 # APIs that need to be implemented by the applications to allow Data Retention Manager (DRM) to orchestrate data subject blocking/deletion. These endpoints would be invoked when data subject deletion call is trigered from DRM by the customer or by the application in the customer's context. The data will be processed based on the residence and retention rules that are configured by the customer for a given data subject role of the application.
 public isolated client class Client {
     final sap:Client clientEp;
+
     # Gets invoked to initialize the `connector`.
     #
     # + config - The configurations to be used when initializing the `connector` 
     # + serviceUrl - URL of the target service 
     # + return - An error if connector initialization failed 
-    public isolated function init(ConnectionConfig config,string hostname, int port = 443 = "https://sandbox.api.sap.com/sapdrm/configuredatasubjectdeletion") returns error? {
-string serviceUrl = string `https://${hostname}:${port}/client.bal`;
+    public isolated function init(ConnectionConfig config, string hostname, int port = 443= "https://sandbox.api.sap.com/sapdrm/configuredatasubjectdeletion") returns error? {
+        string serviceUrl = string `https://${hostname}:${port}/client.bal`;
         http:ClientConfiguration httpClientConfig = {auth: config.auth, httpVersion: config.httpVersion, timeout: config.timeout, forwarded: config.forwarded, poolConfig: config.poolConfig, compression: config.compression, circuitBreaker: config.circuitBreaker, retryConfig: config.retryConfig, validation: config.validation};
         do {
             if config.http1Settings is ClientHttp1Settings {

@@ -4,9 +4,9 @@
 import ballerina/http;
 import ballerinax/sap;
 
-# 
+#
 
-# 
+#
 
 # The service enables you to create, read, update, and delete locations through an API call. You can perform these activities from a source system outside SAP S/4HANA Cloud.
 
@@ -14,13 +14,14 @@ import ballerinax/sap;
 
 public isolated client class Client {
     final sap:Client clientEp;
+
     # Gets invoked to initialize the `connector`.
     #
     # + config - The configurations to be used when initializing the `connector` 
     # + serviceUrl - URL of the target service 
     # + return - An error if connector initialization failed 
-    public isolated function init(ConnectionConfig config,string hostname, int port = 443) returns error? {
-string serviceUrl = string `https://${hostname}:${port}/client.bal`;
+    public isolated function init(ConnectionConfig config, string hostname, int port = 443) returns error? {
+        string serviceUrl = string `https://${hostname}:${port}/client.bal`;
         http:ClientConfiguration httpClientConfig = {auth: config.auth, httpVersion: config.httpVersion, timeout: config.timeout, forwarded: config.forwarded, poolConfig: config.poolConfig, compression: config.compression, circuitBreaker: config.circuitBreaker, retryConfig: config.retryConfig, validation: config.validation};
         do {
             if config.http1Settings is ClientHttp1Settings {

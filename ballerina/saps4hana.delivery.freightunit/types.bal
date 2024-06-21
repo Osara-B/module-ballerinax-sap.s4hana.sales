@@ -183,9 +183,9 @@ public type MasterDataSubjectIOT_inner record {
     # Date time in UTC with ISO_LOCAL_DATE_TIME format. This is the end of business date.
     string retentionStartDate?;
     # Indicates whether purpose for this data subject and data subject role is over in all other application groups using the same master data service.
-    # 
+    #
     # * 0 - purpose over in all applications, 
-    # 
+    #
     # * 1-  purpose not over in all applications
     int purposeStatus?;
 };

@@ -1,0 +1,5 @@
+[package]
+org = "osara_bandara"
+name = "saps4hana.delivery.location"
+version = "0.1.0"
+distribution = "2201.9.0"

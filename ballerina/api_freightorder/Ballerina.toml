@@ -1,8 +1,0 @@
-[package]
-org = "osara_bandara"
-name = "api_freightorder"
-version = "0.1.0"
-distribution = "2201.9.0"
-
-[build-options]
-observabilityIncluded = true

@@ -194,6 +194,7 @@
     "paths": {
         "/FreightUnit": {
             "get": {
+                "operationId": "listFreightUnits",
                 "summary": "Get entities from FreightUnit",
                 "tags": [
                     "Freight Unit"
@@ -270,6 +271,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnit/{TransportationOrderUUID}",
                 "summary": "Get entity from FreightUnit by key",
                 "tags": [
                     "Freight Unit"
@@ -299,6 +301,7 @@
                 }
             },
             "patch": {
+                "operationId": "patchFreightUnit/{TransportationOrderUUID}",
                 "summary": "Update entity in FreightUnit",
                 "tags": [
                     "Freight Unit"
@@ -339,6 +342,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnit/{TransportationOrderUUID}/_ConsigneeAddrDfltRprstn",
                 "summary": "Get related _ConsigneeAddrDfltRprstn",
                 "tags": [
                     "Freight Unit",
@@ -384,6 +388,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnit/{TransportationOrderUUID}/_FreightUnitBusinessPartners",
                 "summary": "Get entities from related _FreightUnitBusinessPartner",
                 "tags": [
                     "Freight Unit",
@@ -461,6 +466,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnit/{TransportationOrderUUID}/_FreightUnitDocumentReferences",
                 "summary": "Get entities from related _FreightUnitDocumentReference",
                 "tags": [
                     "Freight Unit",
@@ -538,6 +544,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnit/{TransportationOrderUUID}/_FreightUnitItems",
                 "summary": "Get entities from related _FreightUnitItem",
                 "tags": [
                     "Freight Unit",
@@ -615,6 +622,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnit/{TransportationOrderUUID}/_FreightUnitStops",
                 "summary": "Get entities from related _FreightUnitStop",
                 "tags": [
                     "Freight Unit",
@@ -692,6 +700,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnit/{TransportationOrderUUID}/_FrtUnitMainBPAddrDfltRprstns",
                 "summary": "Get entities from related _FrtUnitMainBPAddrDfltRprstn",
                 "tags": [
                     "Freight Unit",
@@ -769,6 +778,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnit/{TransportationOrderUUID}/_ShipperAddrDfltRprstn",
                 "summary": "Get related _ShipperAddrDfltRprstn",
                 "tags": [
                     "Freight Unit",
@@ -801,6 +811,7 @@
         },
         "/FreightUnitBusinessPartner": {
             "get": {
+                "operationId": "listFreightUnitBusinessPartners",
                 "summary": "Get entities from FreightUnitBusinessPartner",
                 "tags": [
                     "Freight Unit Business Partner"
@@ -877,6 +888,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitBusinessPartner/{TransportationOrderBusPartUUID}",
                 "summary": "Get entity from FreightUnitBusinessPartner by key",
                 "tags": [
                     "Freight Unit Business Partner"
@@ -921,6 +933,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitBusinessPartner/{TransportationOrderBusPartUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Business Partner",
@@ -966,6 +979,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitBusinessPartner/{TransportationOrderBusPartUUID}/_FrtUnitBPAddrDfltRprstn",
                 "summary": "Get related _FrtUnitBPAddrDfltRprstn",
                 "tags": [
                     "Freight Unit Business Partner",
@@ -998,6 +1012,7 @@
         },
         "/FreightUnitDocumentReference": {
             "get": {
+                "operationId": "listFreightUnitDocumentReferences",
                 "summary": "Get entities from FreightUnitDocumentReference",
                 "tags": [
                     "Freight Unit Documnet Reference"
@@ -1074,6 +1089,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitDocumentReference/{TransportationOrderDocRefUUID}",
                 "summary": "Get entity from FreightUnitDocumentReference by key",
                 "tags": [
                     "Freight Unit Documnet Reference"
@@ -1118,6 +1134,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitDocumentReference/{TransportationOrderDocRefUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Documnet Reference",
@@ -1150,6 +1167,7 @@
         },
         "/FreightUnitItem": {
             "get": {
+                "operationId": "listFreightUnitItems",
                 "summary": "Get entities from FreightUnitItem",
                 "tags": [
                     "Freight Unit Item"
@@ -1226,6 +1244,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItem/{TransportationOrderItemUUID}",
                 "summary": "Get entity from FreightUnitItem by key",
                 "tags": [
                     "Freight Unit Item"
@@ -1255,6 +1274,7 @@
                 }
             },
             "patch": {
+                "operationId": "patchFreightUnitItem/{TransportationOrderItemUUID}",
                 "summary": "Update entity in FreightUnitItem",
                 "tags": [
                     "Freight Unit Item"
@@ -1295,6 +1315,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItem/{TransportationOrderItemUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Item",
@@ -1340,6 +1361,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnitItem/{TransportationOrderItemUUID}/_FreightUnitItemCommodityCodes",
                 "summary": "Get entities from related _FreightUnitItemCommodityCode",
                 "tags": [
                     "Freight Unit Item",
@@ -1417,6 +1439,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnitItem/{TransportationOrderItemUUID}/_FreightUnitItemDocRefs",
                 "summary": "Get entities from related _FreightUnitItemDocRef",
                 "tags": [
                     "Freight Unit Item",
@@ -1481,6 +1504,7 @@
         },
         "/FreightUnitItemCommodityCode": {
             "get": {
+                "operationId": "listFreightUnitItemCommodityCodes",
                 "summary": "Get entities from FreightUnitItemCommodityCode",
                 "tags": [
                     "Freight Unit Item Commodity Code"
@@ -1557,6 +1581,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItemCommodityCode/{TranspOrdItemCommodityCodeUUID}",
                 "summary": "Get entity from FreightUnitItemCommodityCode by key",
                 "tags": [
                     "Freight Unit Item Commodity Code"
@@ -1601,6 +1626,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItemCommodityCode/{TranspOrdItemCommodityCodeUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Item Commodity Code",
@@ -1646,6 +1672,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItemCommodityCode/{TranspOrdItemCommodityCodeUUID}/_FreightUnitItem",
                 "summary": "Get related _FreightUnitItem",
                 "tags": [
                     "Freight Unit Item Commodity Code",
@@ -1678,6 +1705,7 @@
         },
         "/FreightUnitItemDocRef": {
             "get": {
+                "operationId": "listFreightUnitItemDocRefs",
                 "summary": "Get entities from FreightUnitItemDocRef",
                 "tags": [
                     "Freight Unit Item Documnet Reference"
@@ -1754,6 +1782,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItemDocRef/{TranspOrdItemDocReferenceUUID}",
                 "summary": "Get entity from FreightUnitItemDocRef by key",
                 "tags": [
                     "Freight Unit Item Documnet Reference"
@@ -1798,6 +1827,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItemDocRef/{TranspOrdItemDocReferenceUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Item Documnet Reference",
@@ -1843,6 +1873,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitItemDocRef/{TranspOrdItemDocReferenceUUID}/_FreightUnitItem",
                 "summary": "Get related _FreightUnitItem",
                 "tags": [
                     "Freight Unit Item Documnet Reference",
@@ -1875,6 +1906,7 @@
         },
         "/FreightUnitStage": {
             "get": {
+                "operationId": "listFreightUnitStages",
                 "summary": "Get entities from FreightUnitStage",
                 "tags": [
                     "Freight Unit Stage"
@@ -1951,6 +1983,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitStage/{TransportationOrderStageUUID}",
                 "summary": "Get entity from FreightUnitStage by key",
                 "tags": [
                     "Freight Unit Stage"
@@ -1980,6 +2013,7 @@
                 }
             },
             "patch": {
+                "operationId": "patchFreightUnitStage/{TransportationOrderStageUUID}",
                 "summary": "Update entity in FreightUnitStage",
                 "tags": [
                     "Freight Unit Stage"
@@ -2020,6 +2054,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitStage/{TransportationOrderStageUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Stage",
@@ -2065,6 +2100,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitStage/{TransportationOrderStageUUID}/_FreightUnitStop",
                 "summary": "Get related _FreightUnitStop",
                 "tags": [
                     "Freight Unit Stage",
@@ -2097,6 +2133,7 @@
         },
         "/FreightUnitStop": {
             "get": {
+                "operationId": "listFreightUnitStops",
                 "summary": "Get entities from FreightUnitStop",
                 "tags": [
                     "Freight Unit Stop"
@@ -2173,6 +2210,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitStop/{TransportationOrderStopUUID}",
                 "summary": "Get entity from FreightUnitStop by key",
                 "tags": [
                     "Freight Unit Stop"
@@ -2217,6 +2255,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitStop/{TransportationOrderStopUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Stop",
@@ -2262,6 +2301,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFreightUnitStop/{TransportationOrderStopUUID}/_FreightUnitStages",
                 "summary": "Get entities from related _FreightUnitStage",
                 "tags": [
                     "Freight Unit Stop",
@@ -2339,6 +2379,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFreightUnitStop/{TransportationOrderStopUUID}/_FrtUnitStopLocAddrDfltRprstn",
                 "summary": "Get related _FrtUnitStopLocAddrDfltRprstn",
                 "tags": [
                     "Freight Unit Stop",
@@ -2371,6 +2412,7 @@
         },
         "/FrtUnitBPAddrAddlRprstn": {
             "get": {
+                "operationId": "listFrtUnitBPAddrAddlRprstns",
                 "summary": "Get entities from FrtUnitBPAddrAddlRprstn",
                 "tags": [
                     "Freight Unit BP Addr Addl Rprstn"
@@ -2457,6 +2499,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitBPAddrAddlRprstn/{TransportationOrderBusPartUUID}/{AddressRepresentationCode}",
                 "summary": "Get entity from FrtUnitBPAddrAddlRprstn by key",
                 "tags": [
                     "Freight Unit BP Addr Addl Rprstn"
@@ -2511,6 +2554,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitBPAddrAddlRprstn/{TransportationOrderBusPartUUID}/{AddressRepresentationCode}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit BP Addr Addl Rprstn",
@@ -2566,6 +2610,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitBPAddrAddlRprstn/{TransportationOrderBusPartUUID}/{AddressRepresentationCode}/_FrtUnitBPAddrDfltRprstn",
                 "summary": "Get related _FrtUnitBPAddrDfltRprstn",
                 "tags": [
                     "Freight Unit BP Addr Addl Rprstn",
@@ -2598,6 +2643,7 @@
         },
         "/FrtUnitBPAddrDfltRprstn": {
             "get": {
+                "operationId": "listFrtUnitBPAddrDfltRprstns",
                 "summary": "Get entities from FrtUnitBPAddrDfltRprstn",
                 "tags": [
                     "Freight Unit BP Addr Dflt Rprstn"
@@ -2674,6 +2720,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitBPAddrDfltRprstn/{TransportationOrderBusPartUUID}",
                 "summary": "Get entity from FrtUnitBPAddrDfltRprstn by key",
                 "tags": [
                     "Freight Unit BP Addr Dflt Rprstn"
@@ -2718,6 +2765,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitBPAddrDfltRprstn/{TransportationOrderBusPartUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit BP Addr Dflt Rprstn",
@@ -2763,6 +2811,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitBPAddrDfltRprstn/{TransportationOrderBusPartUUID}/_FreightUnitBusinessPartner",
                 "summary": "Get related _FreightUnitBusinessPartner",
                 "tags": [
                     "Freight Unit BP Addr Dflt Rprstn",
@@ -2808,6 +2857,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFrtUnitBPAddrDfltRprstn/{TransportationOrderBusPartUUID}/_FrtUnitBPAddrAddlRprstns",
                 "summary": "Get entities from related _FrtUnitBPAddrAddlRprstn",
                 "tags": [
                     "Freight Unit BP Addr Dflt Rprstn",
@@ -2872,6 +2922,7 @@
         },
         "/FrtUnitMainBPAddrAddlRprstn": {
             "get": {
+                "operationId": "listFrtUnitMainBPAddrAddlRprstns",
                 "summary": "Get entities from FrtUnitMainBPAddrAddlRprstn",
                 "tags": [
                     "Freight Unit Main BP Addr Addl Rprstn"
@@ -2968,6 +3019,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitMainBPAddrAddlRprstn/{TransportationOrderUUID}/{TranspOrdBizPartnerFunction}/{AddressRepresentationCode}",
                 "summary": "Get entity from FrtUnitMainBPAddrAddlRprstn by key",
                 "tags": [
                     "Freight Unit Main BP Addr Addl Rprstn"
@@ -3032,6 +3084,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitMainBPAddrAddlRprstn/{TransportationOrderUUID}/{TranspOrdBizPartnerFunction}/{AddressRepresentationCode}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Main BP Addr Addl Rprstn",
@@ -3097,6 +3150,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitMainBPAddrAddlRprstn/{TransportationOrderUUID}/{TranspOrdBizPartnerFunction}/{AddressRepresentationCode}/_FrtUnitMainBPAddrDfltRprstn",
                 "summary": "Get related _FrtUnitMainBPAddrDfltRprstn",
                 "tags": [
                     "Freight Unit Main BP Addr Addl Rprstn",
@@ -3129,6 +3183,7 @@
         },
         "/FrtUnitMainBPAddrDfltRprstn": {
             "get": {
+                "operationId": "listFrtUnitMainBPAddrDfltRprstns",
                 "summary": "Get entities from FrtUnitMainBPAddrDfltRprstn",
                 "tags": [
                     "Freight Unit Main BP Addr Dflt Rprstn"
@@ -3215,6 +3270,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitMainBPAddrDfltRprstn/{TransportationOrderUUID}/{TranspOrdBizPartnerFunction}",
                 "summary": "Get entity from FrtUnitMainBPAddrDfltRprstn by key",
                 "tags": [
                     "Freight Unit Main BP Addr Dflt Rprstn"
@@ -3269,6 +3325,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitMainBPAddrDfltRprstn/{TransportationOrderUUID}/{TranspOrdBizPartnerFunction}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Main BP Addr Dflt Rprstn",
@@ -3324,6 +3381,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFrtUnitMainBPAddrDfltRprstn/{TransportationOrderUUID}/{TranspOrdBizPartnerFunction}/_FrtUnitMainBPAddrAddlRprstns",
                 "summary": "Get entities from related _FrtUnitMainBPAddrAddlRprstn",
                 "tags": [
                     "Freight Unit Main BP Addr Dflt Rprstn",
@@ -3388,6 +3446,7 @@
         },
         "/FrtUnitStopLocAddrAddlRprstn": {
             "get": {
+                "operationId": "listFrtUnitStopLocAddrAddlRprstns",
                 "summary": "Get entities from FrtUnitStopLocAddrAddlRprstn",
                 "tags": [
                     "Freight Unit Stop Loc Addr Addl Rpn"
@@ -3474,6 +3533,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitStopLocAddrAddlRprstn/{TransportationOrderStopUUID}/{AddressRepresentationCode}",
                 "summary": "Get entity from FrtUnitStopLocAddrAddlRprstn by key",
                 "tags": [
                     "Freight Unit Stop Loc Addr Addl Rpn"
@@ -3528,6 +3588,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitStopLocAddrAddlRprstn/{TransportationOrderStopUUID}/{AddressRepresentationCode}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Stop Loc Addr Addl Rpn",
@@ -3583,6 +3644,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitStopLocAddrAddlRprstn/{TransportationOrderStopUUID}/{AddressRepresentationCode}/_FrtUnitStopLocAddrDfltRprstn",
                 "summary": "Get related _FrtUnitStopLocAddrDfltRprstn",
                 "tags": [
                     "Freight Unit Stop Loc Addr Addl Rpn",
@@ -3615,6 +3677,7 @@
         },
         "/FrtUnitStopLocAddrDfltRprstn": {
             "get": {
+                "operationId": "listFrtUnitStopLocAddrDfltRprstns",
                 "summary": "Get entities from FrtUnitStopLocAddrDfltRprstn",
                 "tags": [
                     "Freight Unit Stop Loc Addr Dflt Rpn"
@@ -3691,6 +3754,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitStopLocAddrDfltRprstn/{TransportationOrderStopUUID}",
                 "summary": "Get entity from FrtUnitStopLocAddrDfltRprstn by key",
                 "tags": [
                     "Freight Unit Stop Loc Addr Dflt Rpn"
@@ -3735,6 +3799,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitStopLocAddrDfltRprstn/{TransportationOrderStopUUID}/_FreightUnit",
                 "summary": "Get related _FreightUnit",
                 "tags": [
                     "Freight Unit Stop Loc Addr Dflt Rpn",
@@ -3780,6 +3845,7 @@
                 }
             ],
             "get": {
+                "operationId": "getFrtUnitStopLocAddrDfltRprstn/{TransportationOrderStopUUID}/_FreightUnitStop",
                 "summary": "Get related _FreightUnitStop",
                 "tags": [
                     "Freight Unit Stop Loc Addr Dflt Rpn",
@@ -3825,6 +3891,7 @@
                 }
             ],
             "get": {
+                "operationId": "listFrtUnitStopLocAddrDfltRprstn/{TransportationOrderStopUUID}/_FrtUnitStopLocAddrAddlRprstns",
                 "summary": "Get entities from related _FrtUnitStopLocAddrAddlRprstn",
                 "tags": [
                     "Freight Unit Stop Loc Addr Dflt Rpn",
@@ -3889,6 +3956,7 @@
         },
         "/$batch": {
             "post": {
+                "operationId": "performBatchOperation",
                 "summary": "Send a group of requests",
                 "description": "Group multiple requests into a single request payload, see [Batch Requests](http:\/\/docs.oasis-open.org\/odata\/odata\/v4.01\/odata-v4.01-part1-protocol.html#sec_BatchRequests).\n\n*Please note that \"Try it out\" is not supported for this request.*",
                 "tags": [
